@@ -18,14 +18,13 @@ first_digit = my_number // 10
 second_digit = my_number % 10
 # here the first digit is one and the second digit is two.
 ```
-## 4. [Expense_tracker]()[^1]
+## 4. [Expense_tracker](https://github.com/Ujen-Manandhar/FCC_projects_python/blob/main/4.%20Expense_tracker.ipynb)[^1]
 The Expense_tracker helped be grasp a level of fuctional programming ie make different function in order to acomplish an overall problem. This intuitive way helped me break the overall problem into functional bits (or parts) and to one extent not write repetitive code.<br/>
 This project also introduced me with `lambda function` with using `map` and `filter` expression to write more efficient and powerful code.<br/>
-<ul>
-    <li> `lambda function` unlike function in python are used to write more brief, anonymous functions in Python, ideal for simple, one-time tasks.</li>
-    <li> `map function` map fuction takes in two arguments `map(func, iterable)` in each iteration the map function passes the `iterable` to the `func` and returns a iterable object</li>
-    <li>`filter function` similar two the map function the `filter function` takes in two arguments `filter(func, iterable)` and where `map function` in case for equality returs `True` filter function returs the value as an iterable object </li>
-</ul>
+    -`lambda function` unlike function in python are used to write more brief, anonymous functions in Python, ideal for simple, one-time tasks.
+    - `map function` map fuction takes in two arguments `map(func, iterable)` in each iteration the map function passes the `iterable` to the `func` and returns a iterable object.
+    -`filter function` similar two the map function the `filter function` takes in two arguments `filter(func, iterable)` and where `map function` in case for equality returs `True` filter function returs the value as an iterable object.
+
 ```
 expenses = [{'amount': 1000, 'category': 'coke'},{'amount': 2000, 'category': 'Fanta'}, {'amount': 1000, 'category': 'coke'}]
 category = coke
