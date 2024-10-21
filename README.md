@@ -33,7 +33,7 @@ filter(lambda expenses : expenses['category'] == category, expenses)
 map(lambda expenses : expenses['amount'], expenses)
     >> [True, False, True]
 ```
-## [snake_case_converter]()[^1]
+## [snake_case_converter](https://github.com/Ujen-Manandhar/FCC_projects_python/blob/main/5.%20snake_case_converter.ipynb)[^1]
 The snake case converter is a simple program that converts PascalCase and camelCase into snake_case. The first approch of solving uses a simple function where the char is taken and then uses `.isupper()` method of string to check if the charcter is upper then in the list append the `_ + letter.lower()` in order add space to the different cases as both cases follow capital letter in case of spaces. Then after all the letter are appended, The `.join(lst)` method is called to join the string in the list and also`.strip('_')` method to strip `_` at the beginning and at the end of the text.<br/>
 <br/>
 For the second part of the program rather then writing long program. List comprehension was used a list comprehension is a construct that allows you to generate a new list by applying an expression to each item in an existing iterable and optionally filtering items with a condition. Apart from being briefer, list comprehensions often run faster.<br/>
