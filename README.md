@@ -43,6 +43,7 @@ lst = [i * 2 for i in iterable]
 ```
 ## 6. [Bisection_method]()[^1]
 Bisection Method is a numerical method of finding square root of number. The program takes in 3 argument where the two argument `tolerance` and `max_iterations` have a default value ie when an argument have default value associated with the argument. The `tolerance` argument also uses a scientific notation to indicate `0.0000001`or `1 x 10^-7` used to check the error of the computation.<br/>
+<br/>
 Writing the program also introduced me with a new fuction in python `max()` which returns the higgest value of the number or string. And th `abs()` which acts as absolute value to check with the tolerance level. Also a `count_it` was used to identify the number of iterations it took to identify the square root.<br/>
 <br/>
 The program also introduce a convention of using `_` in a for loop if the variable of the loop ins't being used.<br/>
