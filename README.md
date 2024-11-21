@@ -53,7 +53,8 @@ The project focuses upon making a password generator with regular expression to 
 1. secrets: The secrets module ensure the most secure source of randomness based on the OS can provide, the random module wasn't used because due to the pseudo-random numbers being predictable.
 2. strings: The stirng library was used to get the letters, digits, symbols and no white space for the password.
 3. re(regex): The re library was used for matching purposes. The regex expression was used to check if the password generated had the minium requirement need as specified.<br/>
-<br/>
+
+
 The `for loop` used also focuses upon convention of using `_` if the variable of the loop isn't being used.<br/>
 <br/>
 Regex uses strings to search the character as sometimes python escape characer is needed as such we use `r` in front of the string to convert the string passed in as `r'[a-z]'` a raw string to ignore escape characters and it is a good idea to write regex with raw strings.<br/>
