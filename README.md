@@ -48,5 +48,24 @@ Writing the program also introduced me with a new fuction in python `max()` whic
 <br/>
 The program also introduce a convention of using `_` in a for loop if the variable of the loop ins't being used.<br/>
 
+## 8. [Password Generator]()[^1]
+The project focuses upon making a password generator with regular expression to match pattern of the requirements of the password and make the password completely random. The library used in the programs were
+1. secrets: The secrets module ensure the most secure source of randomness based on the OS can provide, the random module wasn't used because due to the pseudo-random numbers being predictable.
+2. strings: The stirng library was used to get the letters, digits, symbols and no white space for the password.
+3. re(regex): The re library was used for matching purposes. The regex expression was used to check if the password generated had the minium requirement need as specified.<br/>
+<br/>
+The `for loop` used also focuses upon convention of using `_` if the variable of the loop isn't being used.<br/>
+<br/>
+Regex uses strings to search the character as sometimes python escape characer is needed as such we use `r` in front of the string to convert the string passed in as `r'[a-z]'` a raw string to ignore escape characters and it is a good idea to write regex with raw strings.<br/>
+<br/>
+Then using the constraints list and tuple unpacking we check using a generator expression and `all()` function to check if all the constraints are true then print or return the password. The generator expression is more preferable as we don't need the list to be stored it is not need to be stored in memory so using a generator expression is more memory efficient.<br/>
+<br/>
+Generator expressions follow the syntax of list comprehensions but they use parentheses instead of square brackets.<br/>
+<br/>
+`all() is a built-in Python function that returns True if all the elements inside a given iterable evaluate to True.`
+
+
+
+
 ### References
 [^1]: https://www.freecodecamp.org/learn/scientific-computing-with-python/
