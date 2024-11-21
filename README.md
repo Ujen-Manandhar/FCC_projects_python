@@ -48,7 +48,7 @@ Writing the program also introduced me with a new fuction in python `max()` whic
 <br/>
 The program also introduce a convention of using `_` in a for loop if the variable of the loop ins't being used.<br/>
 
-## 8. [Password Generator]()[^1]
+## 8. [Password Generator](https://github.com/Ujen-Manandhar/FCC_projects_python/blob/main/08.1. Password generator.ipynb)[^1]
 The project focuses upon making a password generator with regular expression to match pattern of the requirements of the password and make the password completely random. The library used in the programs were
 1. secrets: The secrets module ensure the most secure source of randomness based on the OS can provide, the random module wasn't used because due to the pseudo-random numbers being predictable.
 2. strings: The stirng library was used to get the letters, digits, symbols and no white space for the password.
@@ -64,6 +64,8 @@ Then using the constraints list and tuple unpacking we check using a generator e
 Generator expressions follow the syntax of list comprehensions but they use parentheses instead of square brackets.<br/>
 <br/>
 `all() is a built-in Python function that returns True if all the elements inside a given iterable evaluate to True.`
+<br/>
+`generator_expression = (len(re.findall(pattern, password)) >= constraint for constraint , pattern in constraints)`
 
 
 
